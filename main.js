@@ -28,7 +28,7 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 const chat = model.startChat({
   history:[],
   generationConfig: {
-    maxOutputTokens: 100,
+    maxOutputTokens: 1000,
   },
 });
 
